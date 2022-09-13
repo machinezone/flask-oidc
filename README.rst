@@ -1,4 +1,4 @@
-flask-oidc
+flask-oidc-mz
 ==========
 
 `OpenID Connect <https://openid.net/connect/>`_ support for `Flask <http://flask.pocoo.org/>`_.
@@ -27,4 +27,8 @@ It has been tested with:
 Project status
 ==============
 
-This project is in active development.
+This repo was forked from https://github.com/gerwout/flask-oidc since the change we need was not being merged timely.
+
+The pull request in question was https://github.com/puiterwijk/flask-oidc/pull/144/files
+
+The only custom change we've made is to merge and build this change as flask-oidc-mz so that we can use flask-oidc properly.
